@@ -1,8 +1,6 @@
 param (
-
     [int]$n,
     [string]$command
-
 )
 
 while ($true) {
