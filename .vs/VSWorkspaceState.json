@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\EXDK",
+    "\\MailboxAccessMonitoring",
+    "\\MailboxAccessMonitoring\\MailPermAuditLogs",
     "\\RandomScripts"
   ],
-  "SelectedNode": "\\RandomScripts\\watch.ps1",
+  "SelectedNode": "\\MailboxAccessMonitoring\\MailPermAuditLogs",
   "PreviewInSolutionExplorer": false
 }
