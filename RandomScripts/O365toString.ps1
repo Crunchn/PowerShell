@@ -5,7 +5,7 @@ Requirements:
     PS> Connect-MsolService
 
 Description:
-    This script converts the default(Primary) domain to a variable(ending at period or dash) and assigns TenantId to the variable.
+    Convert the default(Primary) domain to a variable(ending at period or dash) and assigns TenantId to the variable.
 
 Example:
     domain1234.com
