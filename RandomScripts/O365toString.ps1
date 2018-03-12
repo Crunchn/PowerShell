@@ -1,3 +1,27 @@
+<#
+Requirements:
+    This script requires the MSOnline module.
+    PS> Import-Module MSOnline
+    PS> Connect-MsolService
+
+Description:
+    This script converts the default(Primary) domain to a variable(ending at period or dash) and assigns TenantId to the variable.
+
+Example:
+    domain1234.com
+    $domain1234 = <TenantId>
+
+    domain123.onmicrosoft.com
+    $domain123 = <TenantId>
+
+    example1-domain.com
+    $example1 = <TenantId>
+
+Contributors:
+    Christian Batten
+
+#>
+
 $TenantId = Get-MsolPartnerContract -ALL
 
 foreach ($Tenant in $TenantId)
